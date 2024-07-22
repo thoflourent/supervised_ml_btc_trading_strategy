@@ -10,7 +10,11 @@ python = "^3.10"
 pandas = "^2.2.2"
 scikit-learn = "^1.5.1"
 keras = "^3.4.1"
+tensorflow = "^2.17.0"
 
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
