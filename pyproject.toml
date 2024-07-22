@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "supervised-ml-btc-trading-strategy"
+version = "0.1.0"
+description = "A basic supervised ml classifier for bitcoin trading strategy to learn to deploy algorithm on cloud"
+authors = ["Thomas Flourent <t.flourent@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+keras = "^3.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
