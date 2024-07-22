@@ -2477,6 +2477,25 @@ files = [
 ]
 
 [[package]]
+name = "scikeras"
+version = "0.13.0"
+description = "Scikit-Learn API wrapper for Keras."
+optional = false
+python-versions = "<4,>=3.9.0"
+files = [
+    {file = "scikeras-0.13.0-py3-none-any.whl", hash = "sha256:beeec4536129e316f8ffa56b32cbc097fa9168f3789feb243cadb8d9a36a0084"},
+    {file = "scikeras-0.13.0.tar.gz", hash = "sha256:bfc720b2755f6c09981da13c9858e999a4bf775c49b0a296847dd1adad4c5d7d"},
+]
+
+[package.dependencies]
+keras = ">=3.2.0"
+scikit-learn = ">=1.4.2"
+
+[package.extras]
+tensorflow = ["tensorflow (>=2.16.1)"]
+test = ["tensorflow (>=2.16.1)"]
+
+[[package]]
 name = "scikit-learn"
 version = "1.5.1"
 description = "A set of python modules for machine learning and data mining"
@@ -3118,4 +3137,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "d7941da880b3581026d437d5f9f4d957887e9f1370e7d5d66b0bbb238f95692e"
+content-hash = "dd071a92ce88eb8baf7c2c5086ccb027dfe5f33d21aa2e0e825edf66cc693758"
