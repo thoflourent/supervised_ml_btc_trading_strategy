@@ -1,3 +1,5 @@
 /studies
 /data
 .DS_Store
+.env
+.ipynb_checkpoints/
