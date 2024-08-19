@@ -17,6 +17,9 @@ jupyter = "^1.0.0"
 python-dotenv = "^1.0.1"
 python-binance = "^1.0.19"
 ta-lib = "^0.4.32"
+plotly = "^5.23.0"
+chart-studio = "^1.1.0"
+kaleido = "0.2.1"
 
 
 [tool.poetry.group.dev.dependencies]
