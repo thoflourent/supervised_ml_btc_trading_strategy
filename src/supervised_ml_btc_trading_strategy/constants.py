@@ -1,5 +1,5 @@
 
-
+COINS_LIST = ['BTCUSDT']
 
 TIME_FEATURES = ['DayOfWeek', 'Month', 'Hourly']
 CONTINUOUS_FEATURES = ['Z_score', 'RSI', 'boll', 'ULTOSC', 'pct_change', 'zsVol',
@@ -19,4 +19,10 @@ ALPHA_PTH = 0.8
 BETA_PTH = 0.97
 
 PCT_PERIOD = 1
+
+BUY = 1
+HOLD = 0
+SELL = -1
+
+MA_TIMEFRAME = [12, 21, 50, 100]
 

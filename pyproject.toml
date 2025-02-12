@@ -4,10 +4,13 @@ version = "0.1.0"
 description = "A basic supervised ml classifier for bitcoin trading strategy to learn to deploy algorithm on cloud"
 authors = ["Thomas Flourent <t.flourent@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "supervised_ml_btc_trading_strategy", from = "src" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pandas = "^2.2.2"
+pandas = "1.5.3"
 scikit-learn = "^1.5.1"
 keras = "^3.4.1"
 tensorflow = "^2.17.0"
@@ -20,6 +23,9 @@ ta-lib = "^0.4.32"
 plotly = "^5.23.0"
 chart-studio = "^1.1.0"
 kaleido = "0.2.1"
+imbalanced-learn = "^0.12.3"
+backtesting = "^0.3.3"
+numpy = "1.26.4"
 
 
 [tool.poetry.group.dev.dependencies]
